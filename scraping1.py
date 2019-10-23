@@ -1,6 +1,9 @@
+# coding: UTF-8
+
 # モジュールのインポート
 import urllib.request as req
 from bs4 import BeautifulSoup
+
 # import time
 
 # スクレイピングするURLを設定
