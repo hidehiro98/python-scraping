@@ -12,7 +12,7 @@ webpage = req.urlopen(url)
 
 # BeautifulSoupを使って解析
 soup = BeautifulSoup(webpage, 'html.parser')
-results_array = soup.select(".s-access-title")
+results_array = soup.select(".a-size-base-plus.a-color-base.a-text-normal")
 
 with open('results.csv', 'w') as f:
     writer = csv.writer(f, lineterminator='\n') # 改行コード（\n）を指定しておく

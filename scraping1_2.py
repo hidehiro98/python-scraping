@@ -16,7 +16,7 @@ print(webpage)
 # BeautifulSoupを使って解析
 soup = BeautifulSoup(webpage, 'html.parser')
 # result = soup.find("img").select(".hogehoge-class")
-result = soup.select(".a-size-base-plus.a-color-base.a-text-normal")
+result = soup.select(".a-row.a-size-base.a-color-secondary .a-size-base.a-link-normal")
 
 # 結果を標準出力に出力
 print(result)
